@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import './style.css';
 export const Joke = ({ userAvatar, userName, text, likes, dislikes }) => {
   const [like, setLike] = useState(likes);
